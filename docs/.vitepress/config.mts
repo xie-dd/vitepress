@@ -14,6 +14,7 @@ export default defineConfig({
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Examples', link: '/markdown-examples' },
+        { text: '反馈/交流', link: 'https://github.com/xie-dd/vitepress/discussions' },
         {
           text: '常用网站',
           items: [
