@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,6 +7,9 @@ export default defineConfig({
   description: "AA VitePress Site",
   base: '/vitepress/',
   lastUpdated: true,
+  vite:{
+    plugins:[pagefindPlugin()],
+  },
   themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       lastUpdatedText: "最近更新时间",
@@ -38,6 +42,6 @@ export default defineConfig({
       footer: {
         message: 'Released under the MIT License.',
         copyright: 'Copyright © 2024-2024 xie-dd'
-      }
+      },
   }
 })
