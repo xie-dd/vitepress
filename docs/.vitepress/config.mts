@@ -13,7 +13,17 @@ export default defineConfig({
 
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Examples', link: '/markdown-examples' }
+        { text: 'Examples', link: '/markdown-examples' },
+        {
+          text: '常用网站',
+          items: [
+            { text: 'hexo', link: 'https://19970622.xyz/' },
+            { text: 'xie-dd.github.io', link: 'https://20161101.xyz/' },
+            { text: 'xie-dd.github.io/vitepress', link: 'https://20161101.xyz/vitepress' },
+            { text: 'xie-dd.github.io/mkdocs', link: 'https://20161101.xyz/mkdocs' },
+            { text: 'xdd1997.github.io/docsify', link: 'https://xdd1997.github.io/docsify' },
+          ]
+        },
       ],
 
       sidebar: [
