@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: hexo 部署
+      link: /Hexo+
 
 features:
   - title: Feature A

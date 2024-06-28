@@ -21,14 +21,16 @@ export default defineConfig({
       ],
 
       sidebar: [
-        {
+    // 分为单侧边栏，多侧边栏，下面的是单侧边栏
+      {
           text: 'Examples',
           items: [
             { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
-          ]
-        }
-      ],
+            { text: 'Runtime API Examples', link: '/api-examples' },
+            { text: 'Hexo+Github Page+Github Action+语雀', link: '/Hexo+Github Page+Github Action+语雀.md' }
+              ]
+            }
+        ],
 
       socialLinks: [
         { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
