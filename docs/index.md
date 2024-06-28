@@ -15,7 +15,7 @@ hero:
       link: /api-examples
     - theme: alt
       text: hexo 部署
-      link: /Hexo+
+      link: /Hexo+Github Page+Github Action+语雀.md
 
 features:
   - title: Feature A

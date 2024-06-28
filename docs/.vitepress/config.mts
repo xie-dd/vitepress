@@ -7,9 +7,9 @@ export default defineConfig({
   description: "AA VitePress Site",
   base: '/vitepress/',
   lastUpdated: true,
-  vite:{
-    plugins:[pagefindPlugin()],
-  },
+  // vite:{
+  //   plugins:[pagefindPlugin()],
+  // },
   themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       lastUpdatedText: "最近更新时间",
@@ -45,5 +45,8 @@ export default defineConfig({
         message: 'Released under the MIT License.',
         copyright: 'Copyright © 2024-2024 xie-dd'
       },
+      search: {
+      provider: 'local'
+    }
   }
 })
