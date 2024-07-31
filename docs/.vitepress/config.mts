@@ -4,8 +4,7 @@ import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  //base: '/vitepress/',
-  outDir: '../dist',
+  base: '/vitepress/',
   lastUpdated: true,
 
   themeConfig: {
