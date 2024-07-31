@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/vitepress/',
@@ -34,7 +35,7 @@ export default defineConfig({
           items: [
             { text: 'Markdown Examples', link: '/markdown-examples' },
             { text: 'Runtime API Examples', link: '/api-examples' },
-            { text: 'Hexo+Github Page+Github Action+语雀', link: '/Hexo+Github Page+Github Action+语雀.md' }
+            { text: 'Hexo+Github Page+Github Action', link: '/Hexo+Github Page+Github Action.md' }
               ]
             }
         ],
