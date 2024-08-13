@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
-  base: '/vitepress/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -14,17 +13,16 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples001',
+        text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-
+          { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/xie-dd/vitepress' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })
